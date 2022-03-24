@@ -12,7 +12,7 @@ using Persitence;
 namespace Persitence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220324152705_Initial")]
+    [Migration("20220324174530_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,6 +33,10 @@ namespace Persitence.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Barcode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Category")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

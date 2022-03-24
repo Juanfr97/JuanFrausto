@@ -20,6 +20,7 @@ namespace Domain
         /// <summary>
         /// Year production
         /// </summary>
+        public string Category { get; set; }
         public int YearProduction { get; set; }
         /// <summary>
         /// Expiration date

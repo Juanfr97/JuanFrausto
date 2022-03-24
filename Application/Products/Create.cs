@@ -15,6 +15,7 @@ namespace Application.Products
         {
             public string Barcode { get; set; }
             public string Name { get; set; }
+            public string Category { get; set; }
             public int YearProduction { get; set; }
             public DateTime ExpirationDate { get; set; }
             public string Review { get; set; }
@@ -35,6 +36,7 @@ namespace Application.Products
                 {
                     Barcode = request.Barcode,
                     Name = request.Name,
+                    Category = request.Category,
                     YearProduction = request.YearProduction,
                     ExpirationDate = request.ExpirationDate,
                     Review = request.Review,

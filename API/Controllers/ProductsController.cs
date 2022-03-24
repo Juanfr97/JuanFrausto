@@ -41,6 +41,7 @@ namespace API.Controllers
         ///           "barcode": "7612547896",
         ///           "name": "COCA COLA",
         ///           "yearProduction": 2020,
+        ///           "category":"Soda",
         ///           "expirationDate": "2022-03-24",
         ///           "review": "A great soda"
         ///     }
