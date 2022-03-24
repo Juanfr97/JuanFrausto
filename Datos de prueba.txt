@@ -1,0 +1,52 @@
+Para el metodo get se probaron con los siguientes querys (yyyy-mm-dd)
+From: 2022-01-03
+To:2022-10-06
+
+{     "barcode": "7612547896",
+      "name": "COCA COLA",
+      "yearProduction": 2020,
+      "expirationDate": "2022-03-24",
+      "review": "A great soda"
+},
+{     "barcode": "7612127896",
+      "name": "SABRITAS",
+      "yearProduction": 2020,
+      "expirationDate": "2022-03-28",
+      "review": "French fries"
+},
+{     "barcode": "7612547898",
+      "name": "LECHE LEON",
+      "yearProduction": 2020,
+      "expirationDate": "2021-02-24",
+      "review": "Milk"
+},
+{     "barcode": "7612547871",
+      "name": "JUMEX",
+      "yearProduction": 2020,
+      "expirationDate": "2022-09-25",
+      "review": "Delicious juice"
+},
+{     "barcode": "7612547896",
+      "name": "PEPSI",
+      "yearProduction": 2020,
+      "expirationDate": "2022-01-24",
+      "review": "A great soda"
+},
+{     "barcode": "7612127896",
+      "name": SPRITE
+      "yearProduction": 2020,
+      "expirationDate": "2022-07-28",
+      "review": "A great soda"
+},
+{     "barcode": "7612547898",
+      "name": "LA COSTEÑA",
+      "yearProduction": 2020,
+      "expirationDate": "2021-02-25",
+      "review": "Amaizing beens"
+},
+{     "barcode": "7612547871",
+      "name": "PAN BIMBO",
+      "yearProduction": 2020,
+      "expirationDate": "2022-11-27",
+      "review": "Bimbo"
+},
